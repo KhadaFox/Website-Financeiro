@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e Cadastro</title>
+    <link rel="stylesheet" href="../css/acess.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Formulário de Login -->
+        <div class="form-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" placeholder="E-mail" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+                <p>Não tem conta? <a href="javascript:void(0)" id="show-register">Cadastre-se</a></p>
+            </form>
+        </div>
+
+        <!-- Formulário de Cadastro -->
+        <div class="form-container" id="register-form" style="display: none;">
+            <h2>Cadastro</h2>
+            <form>
+                <input type="text" placeholder="Nome Completo" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="password" placeholder="Senha" required>
+                <input type="password" placeholder="Confirmar Senha" required>
+                <button type="submit">Cadastrar</button>
+                <p>Já tem conta? <a href="javascript:void(0)" id="show-login">Fazer Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

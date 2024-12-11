@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../Plataforma Financeira/css/style.css">
+    <!-- Link correto para o Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+           <a href="" class="logo">Logo</a> <!-- Logo à esquerda -->
+           <a href="../Plataforma Financeira/html/acess.html">Login | Cadastro</a> 
+           <a href="../Plataforma Financeira/html/sobre.html">Sobre</a> 
+        </nav>
+        <div class="apresentacao">
+            <a href="#conteudo" class="scroll-down">
+                <i class="fas fa-chevron-down"></i> <!-- Ícone de seta para baixo -->
+            </a>
+        </div>
+    </header>
+
+    <content>
+        <div id="conteudo">
+            <h2>Texto explicativo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate dui at venenatis tincidunt. Nam dignissim nec massa nec condimentum. Ut facilisis at mauris eget luctus. Maecenas eget libero felis. Maecenas vitae maximus turpis. Pellentesque blandit finibus ante, ut congue erat tempor quis. Aenean gravida augue pretium massa posuere, sit amet dignissim risus luctus. Curabitur fermentum scelerisque nulla vel posuere.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate dui at venenatis tincidunt. Nam dignissim nec massa nec condimentum. Ut facilisis at mauris eget luctus. Maecenas eget libero felis. Maecenas vitae maximus turpis. Pellentesque blandit finibus ante, ut congue erat tempor quis. Aenean gravida augue pretium massa posuere, sit amet dignissim risus luctus. Curabitur fermentum scelerisque nulla vel posuere.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate dui at venenatis tincidunt. Nam dignissim nec massa nec condimentum. Ut facilisis at mauris eget luctus. Maecenas eget libero felis. Maecenas vitae maximus turpis. Pellentesque blandit finibus ante, ut congue erat tempor quis. Aenean gravida augue pretium massa posuere, sit amet dignissim risus luctus. Curabitur fermentum scelerisque nulla vel posuere.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate dui at venenatis tincidunt. Nam dignissim nec massa nec condimentum. Ut facilisis at mauris eget luctus. Maecenas eget libero felis. Maecenas vitae maximus turpis. Pellentesque blandit finibus ante, ut congue erat tempor quis. Aenean gravida augue pretium massa posuere, sit amet dignissim risus luctus. Curabitur fermentum scelerisque nulla vel posuere.</p>
+        </div>
+    </content>
+    <footer class="rodape">
+        <div class="container">
+            <div class="info">
+                <h3>Plataforma Financeira</h3>
+                <p>Desenvolvido para ajudar você a gerenciar suas finanças de forma eficiente e segura.</p>
+            </div>
+            <div class="contatos">
+                <h4>Contatos</h4>
+                <p><i class="fas fa-envelope"></i> email@marca.com</p>
+                <p><i class="fas fa-phone-alt"></i> +55 (11) 1234-5678</p>
+            </div>
+            <div class="social">
+                <h4>Redes Sociais</h4>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+        <p class="copyright">© 2024 Plataforma Financeira - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Adicionando rolagem suave ao clicar na seta
+        const scrollDownButton = document.querySelector('.scroll-down');
+        scrollDownButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('conteudo').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
